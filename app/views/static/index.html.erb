@@ -1,19 +1,29 @@
 
 
 
-<h1>Posts</h1>
+
+
+<div class="row">
+<div class="col-md-6">
+  <h1>Posts</h1>
+
 
 <% @posts.each do |post| %>
 <p><%= post.title %></p>
 <p><%= post.body %></p>
 
 <% end %>
+</div>
+
+<div class="col-md-6">
+
+<h1>Jquery Stuff</h1>
 
 <button id="btn1" type="button" name="button">Make bill Dissapear</button>
+<button id="btn2" type="button" name="button">Make bill Reapear</button>
 
 <div id="bill">
   <img src="https://www.fillmurray.com/200/300" alt="">
 
 </div>
-
-<button type="button" name="button"></button>
+</div>

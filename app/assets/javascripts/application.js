@@ -23,5 +23,9 @@ $(document).ready(function(){
     $('#bill').hide(1000);
   });
 
+  $('#btn2').click(function(){
+    $('#bill').show(1000);
+  })
+
 
 });
