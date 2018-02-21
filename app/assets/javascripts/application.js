@@ -15,3 +15,13 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+
+  //Hide
+  $('#btn1').click(function () {
+    $('#bill').hide(1000);
+  });
+
+
+});

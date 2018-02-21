@@ -21,6 +21,11 @@
     <%= form.text_area :body, id: :post_body %>
   </div>
 
+  <div class="field">
+    <%= form.collection_select(:user_id, User.all, :id, :username)%>
+
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
